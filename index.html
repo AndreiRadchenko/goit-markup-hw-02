@@ -7,51 +7,57 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="/"><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+<body class="body">
+    <header class="page-header">
+        <!-- navigation -->
+        <nav class="site-nav">
+            <a lang="en" class="header-logo link" href="/"><span class="logo-acent">Web</span>Studio</a>
+            <ul class="list">
+                <li><a class="link current" href="./index.html">Студія</a></li>
+                <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="link" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <!-- contacts -->
+        <ul class="header-contacts list">
+            <li><a class="header-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="header-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main> 
         <!--Hero section-->
-        <section>
-            <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button type="button">замовити послугу</button>
+        <section class="hero">
+            <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+            <button class="button primary" type="button">замовити послугу</button>
+            <section class="sect">
         </section>
-        <section>
-            <h2>НАШІ ПЕРЕВАГИ</h2>
-            <ul>
+    </section>
+    <!-- our benefits -->
+    <section class="section">
+            <h2 class="section-title">НАШІ ПЕРЕВАГИ</h2>
+            <ul class="benefits list">
                 <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p>Ідейні міркування, а також початок повсякденної роботи по формуванню позиції.</p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                    <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
                     <p>Задача організації, особливо ж рамки та місце навчання кадрів тягне за собою.</p>
                 </li>
                 <li>
-                    <h3>ПЛАНУВАННЯ</h3>
+                    <h3 class="title">ПЛАНУВАННЯ</h3>
                     <p>Так само консультація з широким активом значно обумовлює.</p>
                 </li>
                 <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p>Значимість цих проблем є настільки очевидною, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>ЧИМ МИ ЗАЙМАЄМОСЬ</h2>
-            <ul>
+        <!-- our specialization -->
+        <section class="section">
+            <h2 class="section-title">ЧИМ МИ ЗАЙМАЄМОСЬ</h2>
+            <ul class="list">
                 <li>
                     <img src="./images/squoosh_img1.jpg" alt="розробляємо веб додатки" width="370">
                 </li>
@@ -63,46 +69,47 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <!-- our company -->
+        <section class="section-company">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="list">
                 <li>
                     <img src="./images/squoosh_portret1.jpg" alt="Ігор Дем`яненко" width="270">
-                    <h3>Ігор Дем`яненко</h3>
+                    <h3 class="members-title">Ігор Дем`яненко</h3>
                     <span>Product Designer</span>
                 </li>
                 <li>
                     <img src="./images/squoosh_portret2.jpg" alt="Ольга Рєпіна" width="270">
-                    <h3>Ольга Рєпіна</h3>
+                    <h3 class="members-title">Ольга Рєпіна</h3>
                     <span>Frontend Developer</span>
                 </li>
                 <li>
                     <img src="./images/squoosh_portret3.jpg" alt="Микола Тарасов" width="270">
-                    <h3>Микола Тарасов</h3>
+                    <h3 class="members-title">Микола Тарасов</h3>
                     <span>Marketing</span>
                 </li>
                 <li>
                     <img src="./images/squoosh_portret4.jpg" alt="Михайло Єрмаков" width="270">
-                    <h3>Михайло Єрмаков</h3>
+                    <h3 class="members-title">Михайло Єрмаков</h3>
                     <span>UI Designer</span>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href=""><span>Web</span>Studio</a>
+    <footer class="footer">
+        <a lang="en" class="footer-logo link" href="/"><span class="logo-acent">Web</span>Studio</a>
         <address>
-            <ul>
+            <ul class="footer-contacts list">
                 <li>
-                    <a href="https://goo.gl/maps/kmzWkeFPWZeqgjE26" target="_blank" rel="noopener noreferrer">
+                    <a class="footer-adress link" href="https://goo.gl/maps/kmzWkeFPWZeqgjE26" target="_blank" rel="noopener noreferrer">
                         м. Київ, пр-т Лесі Українки, 26
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a class="footer-contacts link" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="footer-contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>  

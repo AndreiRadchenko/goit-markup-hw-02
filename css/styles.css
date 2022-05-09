@@ -1,0 +1,102 @@
+/* main text color #757575 */
+/* secondary text color #212121 */
+/* acent color #2196F3 */
+/* white color #ffffff */
+/* footer contacts color rgba(255, 255, 255, 0.6) */
+/* hero, footer background color #2F303A */
+/* company section, button bg color #F5F4FA */
+:root{
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #ffffff;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --footer-background-color: #2F303A;
+    --button-background-color: #F5F4FA;
+}
+body{
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* logo style */
+.header-logo {
+    color: var(--secondary-text-color);
+}
+.logo-acent {
+    color: var(--accent-color);
+}
+.footer-logo {
+    color: var(--background-color);
+}
+/* nav style */
+.site-nav .link{
+    color: var(--secondary-text-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color)
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+/* header contacts style*/
+.header-contacts {
+    color: var(--main-text-color);
+}
+.header-contacts.link:hover, .header-contacts.link:focus{
+    color: var(--accent-color);
+}
+/* hero sections style */
+.hero {
+    background-color: var(--footer-background-color);
+}
+.hero-title{
+    color: var(--background-color);
+}
+.button{
+    background-color: var(--button-background-color);
+    color: var(--secondary-text-color);
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+.button.secondary{
+    background-color: var(--button-background-color);
+    color: var(--secondary-text-color);
+}
+.button.secondary:hover, .button.secondary:focus {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+/* section style */
+.section{
+    background-color: var(--background-color);
+}
+.section-company {
+    background-color: var(--button-background-color);
+}
+.section-title {
+    color: var(--secondary-text-color);
+}
+.benefits .title {
+    color: var(--secondary-text-color);
+}
+.members-title {
+    color: var(--secondary-text-color);
+}
+/* footer style */
+.footer {
+    background-color: var(--footer-background-color);
+}
+.footer-adress{
+    color: var(--background-color);
+}
+.footer-contacts{
+    color: var(--footer-contacts-color);
+}
